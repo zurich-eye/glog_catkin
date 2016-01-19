@@ -1,6 +1,7 @@
-<package>
+<?xml version="1.0"?>
+<package format="2">
   <name>glog_catkin</name>
-  <version>0.0.0</version>
+  <version>0.1.0</version>
   <description>glog_catkin</description>
   <maintainer email="slynen@ethz.ch">Simon Lynen</maintainer>
 
@@ -10,5 +11,5 @@
   <buildtool_depend>catkin_simple</buildtool_depend>
   
   <build_depend>gflags_catkin</build_depend>
-  <build_depend>unzip</build_depend>
+  <build_depend>cmake_external_project_catkin</build_depend>
 </package>
